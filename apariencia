@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+    font-size: 60px;
+    text-align: center;
+    text-align: start;
+}
+p {
+    color: orange;
+    border-left: 7px;
+    border-left-color: orange;
+    padding: 10px;
+}
+li {
+    decoration: none;
+    
+}

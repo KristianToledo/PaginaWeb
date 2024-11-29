@@ -1,0 +1,188 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: red;
+    font-size: 60px;
+    text-align: center;
+}
+h2 {
+    color: red;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 580px;
+}
+    
+p {
+    color: black;
+    border-left: 7px;
+    border-left-color: red;
+    padding: 10px;
+}
+b {
+    text-align: center;
+    color: cadetblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: #333; 
+    padding: 1rem 0; 
+}
+
+.menu ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.menu ul li {
+    margin: 0 15px; 
+}
+
+.menu ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.2rem; 
+    padding: 10px 20px; 
+    display: block; 
+    transition: background-color 0.3s ease; 
+}
+
+.menu ul li a:hover {
+    background-color: #f39c12;
+    border-radius: 5px; 
+    color: white; 
+}
+
+.proyecto1 {
+    text-align: right;
+}
+
+
+.proyecto2 {
+    text-align: left;
+}
+.pr2 {
+    display: block;
+    margin-left: auto;
+    margin-right: 350px;
+}
+.proyecto3 {
+    text-align: right;
+}
+
+.proyecto4 {
+    text-align: left;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: -230px;
+}
+.foot {
+    color: white;
+}
+.proyect {
+    width: 100%;
+    border: 1px solid;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.columna {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.columna.vacia {
+    background-color: #f0f0f0;
+}
+
+.columna.imagen {
+    background-color: #e8e8e8;
+    justify-content: space-between;
+    top: 200px;
+}
+
+.columna.texto {
+    background-color: #e0e0e0;
+    justify-content: space-between;
+}
+
+.apartado {
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.columna.imagen .apartado img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+aside {
+    margin-right: 3px;
+    font-style: italic;
+    left: 50px;
+    top: -60px;
+    float: left;
+    position: relative;
+    top: -1820px;
+  }
+  .bloque {
+    position: absolute;  
+    top: 620px;  
+    left: 50%;  
+    transform: translateX(-50%); 
+    font-size: 18px; 
+    color: white; 
+    text-align: center; 
+    background-color: black; 
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.txt {
+    position: absolute;
+    text-align: left;   
+    left: 5px;         
+    top: 1100px;           
+    right: 10px;
+}
+
+.imgnoso {
+    position: relative;
+    top: 700px;
+}
